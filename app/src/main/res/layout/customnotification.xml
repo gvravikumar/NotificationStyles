@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_customnotify"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rlNotifyContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagenotileft"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/imagenotileftlogo"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/title"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="8dp"
+            android:text="name"
+
+            android:textColor="#606060"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="2dp"
+            android:textColor="#606060"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:padding="2dp"
+            android:text=""
+            android:textColor="#606060"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
